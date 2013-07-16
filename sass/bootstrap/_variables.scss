@@ -33,12 +33,12 @@ $purple:                #7a43b6 !default;
 // Scaffolding
 // -------------------------
 $bodyBackground:        $white !default;
-$textColor:             $grayDark !default;
+$textColor:             #131313 !default;
 
 
 // Links
 // -------------------------
-$linkColor:             #08c !default;
+$linkColor:             #1b559b !default;
 $linkColorHover:        darken($linkColor, 15%) !default;
 
 
@@ -49,9 +49,9 @@ $serifFontFamily:       Georgia, "Times New Roman", Times, serif !default;
 $monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace !default;
 
 $baseFontSize:          14px !default;
-$baseFontFamily:        $sansFontFamily !default;
-$baseLineHeight:        20px !default;
-$altFontFamily:         $serifFontFamily !default;
+$baseFontFamily:        $sans !default;
+$baseLineHeight:        22px !default;
+$altFontFamily:         $sans-h !default;
 
 $headingsFontFamily:    inherit !default; // empty to use BS default, $baseFontFamily
 $headingsFontWeight:    bold !default;    // instead of browser default, bold
@@ -63,8 +63,8 @@ $headingsColor:         inherit !default; // empty to use BS default, $textColor
 // Based on 14px font-size and 20px line-height
 
 $fontSizeLarge:         $baseFontSize * 1.25 !default; // ~18px
-$fontSizeSmall:         $baseFontSize * 0.85 !default; // ~12px
-$fontSizeMini:          $baseFontSize * 0.75 !default; // ~11px
+$fontSizeSmall:         16px; // ~12px
+$fontSizeMini:          12 !default; // ~11px
 
 $paddingLarge:          11px 19px !default; // 44px
 $paddingSmall:          2px 10px !default;  // 26px

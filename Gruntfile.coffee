@@ -10,7 +10,7 @@ module.exports = (grunt) ->
     sass:
       compile:
         files:
-          "build/css/style.css": ["./sass/style.scss"]
+          "./css/style.css": ["./sass/style.scss"]
       dev:
         options: # Target options
           style: "expanded"
@@ -34,13 +34,13 @@ module.exports = (grunt) ->
     watch:
       jade:
         files: [ "app/**/*" ],
-        options:
-          nospawn: true,
         tasks: ["jade:debug"]
       sass:
-        files: [ "/**/*.sass", "/**/*.scss" ],
+        files: [ "./**/*.sass", "./**/*.scss" ],
         options:
-          nospawn: true,
+          nospawn: true
+          sourcemap: true
+          lineNumbers: true
         tasks: ["sass:dev"]
 
 
@@ -49,15 +49,17 @@ module.exports = (grunt) ->
         files:
           'page/': ['app/*.jade']
         options:
-          compileDebug: true
+          compileDebug: false
           client: false
+          runtime: true
 
   # These plugins provide necessary tasks.
   grunt.loadNpmTasks "grunt-contrib-watch"
   grunt.loadNpmTasks "grunt-contrib-sass"
   grunt.loadNpmTasks "grunt-contrib-coffee"
   grunt.loadNpmTasks "grunt-contrib-connect"
-  grunt.loadNpmTasks('grunt-jade');
+  grunt.loadNpmTasks 'grunt-jade'
+
 
   # Default task.
   grunt.registerTask "default", ["watch"]

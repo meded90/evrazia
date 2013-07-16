@@ -1,5 +1,111 @@
+- var spase = ' '
 include blocks/head
 body
+  include blocks/menu
+  .header
+    .carusel-box
+      .pakination
+      ul.carusel-main.js-carusel-main
+        li
+          .wrap-content
+            .container
+              .tit
+                span  Nissan Juke в новой комплектации и  <br>
+                span с обновленным дизайном
+                  .el
+              .dis
+                a.btn.btn-small Больше о Nissan Juke &nbsp;
+                  i.icon-arrow-right-2
+          img(src="http://lorempixel.com/1920/1000")
+        li
+          .wrap-content
+            .container
+              .tit
+                span  Nissan Juke в новой комплектации и  <br>
+                span с обновленным дизайном
+                  .el
+              .dis
+                a.btn.btn-small Больше о Nissan Juke &nbsp;
+                  i.icon-arrow-right-2
+          img(src="http://lorempixel.com/1920/1000")
+        li
+          .wrap-content
+            .container
+              .tit
+                span  Nissan Juke в новой комплектации и  <br>
+                span с обновленным дизайном
+                  .el
+              .dis
+                a.btn.btn-small Больше о Nissan Juke &nbsp;
+                  i.icon-arrow-right-2
+          img(src="http://lorempixel.com/1920/1000/")
+
+    .menu-mark
+      .container
+        ul.list
+          li.logo
+            a(href='#')
+              i.icons-logo
+          | " "
+          li.item
+            a(href='#')
+              span nissan
+              i.icons-nissan-mini
+          | " "
+          li.item
+            a(href='#')
+              span Mitsubishi
+              i.icons-hyubai-mini
+          | " "
+          li.item
+            a(href='#')
+              span Volkswagen
+              i.icons-volkswagen-mini
+          | " "
+          li.item
+            a(href='#')
+              span Peugeot
+              i.icons-renault-mini
+          | " "
+          li.item.active
+            a(href='#')
+              span Renault
+              i.icons-renault-mini
+          | " "
+          li.item
+            a(href='#')
+              span Ford
+              i.icons-ford-mini
+
+    .main-menu
+      .container
+        ul.list
+          li
+            a(href='#')
+              i.icons-img_32
+              br
+              .wrap-text
+                span  Авто в наличии
+          | #{spase}
+          li
+            a(href='#')
+              i.icons-img_42
+              .wrap-text
+                span
+                  | Запись на сервисное  <br>
+                  | обслуживание
+          | #{spase}
+          li
+            a(href='#')
+              i.icons-img_48
+              .wrap-text
+                span  Кредитный <br> калькулятор
+          | #{spase}
+          li
+            a(href='#')
+              i.icons-img_58
+              .wrap-text
+                span  Страховой <br> калькулятор
 
 
-  include ../app/blocks/js
+  include blocks/js

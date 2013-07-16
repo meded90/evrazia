@@ -21,12 +21,12 @@ body {
 
 a {
   color: $linkColor;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover,
 a:focus {
   color: $linkColorHover;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 

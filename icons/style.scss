@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'icomoon';
+  src:url('../icons/fonts/icomoon.eot');
+  src:url('../icons/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+  url('../icons/fonts/icomoon.woff') format('woff'),
+  url('../icons/fonts/icomoon.ttf') format('truetype'),
+  url('../icons/fonts/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-arrow-up, .icon-arrow-down, .icon-arrow-left, .icon-arrow-right, .icon-arrow-up-2, .icon-arrow-down-2, .icon-arrow-left-2, .icon-arrow-up-left, .icon-arrow-up-3, .icon-arrow-up-right, .icon-arrow-right-2, .icon-arrow-down-right, .icon-arrow-down-3, .icon-back, .icon-user, .icon-location, .icon-vk, .icon-od, .icon-mobile, .icon-vk-2, .icon-mail, .icon-twitter, .icon-facebook, .icon-untitled, .icon-equalizer {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+.icon-arrow-up-left:before {
+  content: "\e071";
+}
+.icon-arrow-up:before {
+  content: "\e072";
+}
+.icon-arrow-up-right:before {
+  content: "\e073";
+}
+.icon-arrow-right:before {
+  content: "\e074";
+}
+.icon-arrow-down-right:before {
+  content: "\e075";
+}
+.icon-arrow-down:before {
+  content: "\e076";
+}
+.icon-back:before {
+  content: "\e008";
+}
+.icon-user:before {
+  content: "\e009";
+}
+.icon-location:before {
+  content: "\e00a";
+}
+.icon-vk:before {
+  content: "\e00c";
+}
+.icon-od:before {
+  content: "\e00d";
+}
+.icon-mobile:before {
+  content: "\e00e";
+}
+.icon-vk-2:before {
+  content: "\e010";
+}
+.icon-mail:before {
+  content: "\e011";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-facebook:before {
+  content: "\e000";
+}
+.icon-untitled:before {
+  content: "\420";
+}
+.icon-equalizer:before {
+  content: "\e00b";
+}
+.icon-arrow-left:before {
+  content: "\e012";
+}
+.icon-arrow-down-left:before {
+  content: "\e013";
+}
+.icon-left:before {
+  content: "\e001";
+}
+.icon-right:before {
+  content: "\e002";
+}
